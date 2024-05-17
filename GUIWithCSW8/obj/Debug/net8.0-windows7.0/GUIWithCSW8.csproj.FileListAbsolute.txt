@@ -1,0 +1,16 @@
+D:\GUIWithCSW8WPF\GUIWithCSW8\bin\Debug\net8.0-windows7.0\GUIWithCSW8.exe
+D:\GUIWithCSW8WPF\GUIWithCSW8\bin\Debug\net8.0-windows7.0\GUIWithCSW8.deps.json
+D:\GUIWithCSW8WPF\GUIWithCSW8\bin\Debug\net8.0-windows7.0\GUIWithCSW8.runtimeconfig.json
+D:\GUIWithCSW8WPF\GUIWithCSW8\bin\Debug\net8.0-windows7.0\GUIWithCSW8.dll
+D:\GUIWithCSW8WPF\GUIWithCSW8\bin\Debug\net8.0-windows7.0\GUIWithCSW8.pdb
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.Form1.resources
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.csproj.GenerateResource.cache
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.GeneratedMSBuildEditorConfig.editorconfig
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.AssemblyInfoInputs.cache
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.AssemblyInfo.cs
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.csproj.CoreCompileInputs.cache
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.dll
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\refint\GUIWithCSW8.dll
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.pdb
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\GUIWithCSW8.genruntimeconfig.cache
+D:\GUIWithCSW8WPF\GUIWithCSW8\obj\Debug\net8.0-windows7.0\ref\GUIWithCSW8.dll

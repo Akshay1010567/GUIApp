@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GeneralConfig>
+    <SystemName>MainframeV2</SystemName>
+    <ContactPerson>Akshay Doe</ContactPerson>
+    <Hotline>+1234567890</Hotline>
+    <LoginCode>ABCD1234</LoginCode>
+    <Language>English</Language>
+    <BasicColor>Blue</BasicColor>
+    <Timezone>
+      <Id>W. Europe Standard Time</Id>
+      <DisplayName>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</DisplayName>
+      <BaseUtcOffset>PT1H</BaseUtcOffset>
+      <IsDaylightSavingTime>true</IsDaylightSavingTime>
+    </Timezone>
+    <AudibleSignal>true</AudibleSignal>
+    <InstallationDate>2023-01-15T00:00:00</InstallationDate>
+    <NetworkConfig>
+      <IpAddress>192.168.1.1</IpAddress>
+      <SubnetAddress>255.255.255.1</SubnetAddress>
+      <GatewayAddress>127.0.0.1</GatewayAddress>
+      <Modbus>false</Modbus>
+    </NetworkConfig>
+    <SNTPConfig>
+      <EnableSNTP>false</EnableSNTP>
+      <SNTPServer />
+      <Port>0</Port>
+      <SummerTime>false</SummerTime>
+    </SNTPConfig>
+  </GeneralConfig>
+  <SBSCOnfig>
+    <InverterInputConfig>
+      <InverterType>MT_MWR_48_230_2F</InverterType>
+      <MinRMSVoltage>1</MinRMSVoltage>
+      <MinFrequency>5</MinFrequency>
+      <MaxRMSVoltage>10</MaxRMSVoltage>
+      <MaxFrequency>50</MaxFrequency>
+      <VoltageHysteresis>5</VoltageHysteresis>
+      <FrequencyHysteresis>25</FrequencyHysteresis>
+    </InverterInputConfig>
+    <DCInputConfig>
+      <MinVoltage>0</MinVoltage>
+      <WarningVoltage>9</WarningVoltage>
+      <MaxVoltage>10</MaxVoltage>
+      <VoltageHysteresis>5</VoltageHysteresis>
+    </DCInputConfig>
+  </SBSCOnfig>
+</SystemConfiguration>

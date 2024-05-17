@@ -1,0 +1,16 @@
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\bin\Debug\net8.0-windows\GUIWithCSW8.exe
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\bin\Debug\net8.0-windows\GUIWithCSW8.deps.json
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\bin\Debug\net8.0-windows\GUIWithCSW8.runtimeconfig.json
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\bin\Debug\net8.0-windows\GUIWithCSW8.dll
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\bin\Debug\net8.0-windows\GUIWithCSW8.pdb
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.Form1.resources
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.csproj.GenerateResource.cache
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.AssemblyInfoInputs.cache
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.AssemblyInfo.cs
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.csproj.CoreCompileInputs.cache
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.dll
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\refint\GUIWithCSW8.dll
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.pdb
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\GUIWithCSW8.genruntimeconfig.cache
+D:\Akshay-Vollzeit\CSW8Test\GUIWithCSW8\obj\Debug\net8.0-windows\ref\GUIWithCSW8.dll

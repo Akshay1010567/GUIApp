@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "mG16oDqbKHwINSCalE+3PWBF9jxR/GBuz3lLWaZa4Qg/cQQBOc14xmfq6UrW0Elviz8sFqI0yR+fCMXcZudi+A==",
+  "success": false,
+  "projectFilePath": "D:\\GUIWithCSW8WPF\\CSW8Test\\CSW8Test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project GUIWithCSW8 is not compatible with net8.0-windows7.0 (.NETCoreApp,Version=v8.0). Project GUIWithCSW8 supports: net8.0-windows8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "GUIWithCSW8",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

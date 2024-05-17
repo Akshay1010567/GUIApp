@@ -1,0 +1,42 @@
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.exe
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.deps.json
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.runtimeconfig.json
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.dll
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.pdb
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.AssemblyInfoInputs.cache
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.AssemblyInfo.cs
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.csproj.CoreCompileInputs.cache
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.dll
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\refint\CSW8Test.dll
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.pdb
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.genruntimeconfig.cache
+D:\Akshay-Vollzeit\1. Full_time_Applications\Companies Docs\CSW8Test\CSW8Test\obj\Debug\net8.0\ref\CSW8Test.dll
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.exe
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.deps.json
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.dll
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.pdb
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.dll
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\refint\CSW8Test.dll
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.pdb
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\CSW8Test\CSW8Test\obj\Debug\net8.0\ref\CSW8Test.dll
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.exe
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.deps.json
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.runtimeconfig.json
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.dll
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\bin\Debug\net8.0\CSW8Test.pdb
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.AssemblyInfoInputs.cache
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.AssemblyInfo.cs
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.csproj.CoreCompileInputs.cache
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.dll
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\refint\CSW8Test.dll
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.pdb
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\CSW8Test.genruntimeconfig.cache
+D:\Akshay-Vollzeit\CSW8Test\CSW8Test\obj\Debug\net8.0\ref\CSW8Test.dll

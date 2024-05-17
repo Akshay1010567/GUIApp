@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GUIWithCSW8/1.0.0": {
+        "dependencies": {
+          "LibCSW8": "1.0.0"
+        },
+        "runtime": {
+          "GUIWithCSW8.dll": {}
+        }
+      },
+      "LibCSW8/1.0.0": {
+        "runtime": {
+          "LibCSW8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GUIWithCSW8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibCSW8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
