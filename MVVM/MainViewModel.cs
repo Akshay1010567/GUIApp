@@ -127,6 +127,7 @@ namespace MVVM
         }
 
        
+        // Min and Max Voltage value change by UpDown numeric and runs succesfully as well but only at the compilation time show NuGet package is Exceed Wpf toolkit not available
 
         //public double MinVoltage
         //{
@@ -277,6 +278,7 @@ namespace MVVM
         }
     }
 
+    // Relay command added for MVVM Icommand interface with UI elements
     public class RelayCommand : ICommand
     {
         private readonly Action _execute;

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <SystemConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <GeneralConfig>
     <SystemName>MainframeV2</SystemName>
     <ContactPerson>Akshay Doe</ContactPerson>
     <Hotline>+1234567890</Hotline>
     <LoginCode>ABCD1234</LoginCode>
-    <Language>German</Language>
+    <Language>French</Language>
     <BasicColor>Blue</BasicColor>
     <Timezone>
       <Id>W. Europe Standard Time</Id>
@@ -30,7 +30,7 @@
   </GeneralConfig>
   <SBSCOnfig>
     <InverterInputConfig>
-      <InverterType>MT MWR 220/230-2.0F</InverterType>
+      <InverterType>MT_MWR_48_230_2F</InverterType>
       <MinRMSVoltage>1</MinRMSVoltage>
       <MinFrequency>5</MinFrequency>
       <MaxRMSVoltage>10</MaxRMSVoltage>

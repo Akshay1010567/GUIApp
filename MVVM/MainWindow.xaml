@@ -27,7 +27,6 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
-
         </Grid.RowDefinitions>
 
         <!-- Language Selection -->
@@ -67,7 +66,7 @@
                     FontSize="20" 
                     Margin="165,0,0,0" Grid.ColumnSpan="2" />
 
-        <!--" Add a Button to trigger updating the contact person name-->
+        <!--Add a Button to trigger updating the contact person name-->
         <Button Content="Check Contact Person" 
                 Grid.Row="6" 
                 Command="{Binding CheckContactPersonCommand}" 

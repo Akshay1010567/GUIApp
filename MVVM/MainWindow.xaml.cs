@@ -25,6 +25,7 @@ namespace MVVM
             DataContext = new MainViewModel();
         }
 
+        // Add method in order to user type completely, then only the messagebox of value between 16 and 249 displays 
         private void MinVoltageTextBox_LostFocus(object sender, RoutedEventArgs e)
         {
             var viewModel = DataContext as MainViewModel;
