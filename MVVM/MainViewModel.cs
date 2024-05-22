@@ -26,6 +26,7 @@ namespace MVVM
         private readonly DataService _dataService;
         private readonly string _configFilePath;
 
+        // Select Language Dropdown Menu 
         public ObservableCollection<string> Languages { get; } = new ObservableCollection<string>
         {
             "English",
@@ -61,6 +62,7 @@ namespace MVVM
             }
         }
 
+        // Select Inverter type Dropdown menu
         public ObservableCollection<string> InverterTypes { get; } = new ObservableCollection<string>
         {
             "MT MWR 24/230-1.0F",
