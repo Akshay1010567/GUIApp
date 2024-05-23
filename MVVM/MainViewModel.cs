@@ -24,7 +24,7 @@ namespace MVVM
         private double _minVoltage;
         private double _maxVoltage;
         private readonly DataService _dataService;
-        private readonly string _configFilePath;
+        private string _configFilePath;
 
         // Select Language Dropdown Menu 
         public ObservableCollection<string> Languages { get; } = new ObservableCollection<string>
@@ -181,6 +181,8 @@ namespace MVVM
         public ICommand CheckInverterTypeCommand { get; }
         public ICommand CheckContactPersonCommand { get; }
         public ICommand AddContactPersonCommand { get; }
+        public ICommand LoadConfigurationCommand { get; }
+        public ICommand SaveConfigurationCommand { get; }
 
         public MainViewModel()
         {
@@ -191,6 +193,8 @@ namespace MVVM
             CheckInverterTypeCommand = new RelayCommand(CheckInverterType);
             CheckContactPersonCommand = new RelayCommand(CheckContactPerson);
             AddContactPersonCommand = new RelayCommand(AddContactPerson);
+            LoadConfigurationCommand = new RelayCommand(LoadConfiguration);
+            SaveConfigurationCommand = new RelayCommand(SaveConfiguration);
         }
 
         private void LoadData()
@@ -219,6 +223,54 @@ namespace MVVM
         {
             _configuration.SBSCOnfig.DCInputConfig.MaxVoltage = _maxVoltage;
             SaveData();
+        }
+
+        private void LoadConfiguration()
+        {
+            try
+            {
+                var openFileDialog = new Microsoft.Win32.OpenFileDialog
+                {
+                    Filter = "XML Files (*.xml)|*.xml|All Files (*.*)|*.*",
+                    DefaultExt = ".xml"
+                };
+
+                bool? result = openFileDialog.ShowDialog();
+                if (result == true)
+                {
+                    _configFilePath = openFileDialog.FileName;
+                    LoadData();
+                    MessageBox.Show("Configuration loaded successfully.", "Load Configuration", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error loading configuration: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void SaveConfiguration()
+        {
+            try
+            {
+                var saveFileDialog = new Microsoft.Win32.SaveFileDialog
+                {
+                    Filter = "XML Files (*.xml)|*.xml|All Files (*.*)|*.*",
+                    DefaultExt = ".xml"
+                };
+
+                bool? result = saveFileDialog.ShowDialog();
+                if (result == true)
+                {
+                    _configFilePath = saveFileDialog.FileName;
+                    SaveData();
+                    MessageBox.Show("Configuration saved successfully.", "Save Configuration", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving configuration: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void CheckLanguage()

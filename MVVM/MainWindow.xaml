@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MVVM"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="550" Width="800">
     <Window.DataContext>
         <local:MainViewModel />
     </Window.DataContext>
@@ -27,55 +27,57 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
         <!-- Language Selection -->
-        <TextBlock Text="Select Language:" Grid.Row="1" Width="135"  HorizontalAlignment="Left" Margin="35,11,0,10"/>
+        <TextBlock Text="Select Language:" Grid.Row="1" Width="135"  HorizontalAlignment="Left" Margin="56,46,0,9"/>
         <ComboBox ItemsSource="{Binding Languages}" 
                   Grid.Row="1" 
                   SelectedItem="{Binding SelectedLanguage}" 
-                  Margin="165,10,445,10" Height="25" Grid.ColumnSpan="2"/>
+                  Margin="165,45,445,10" Height="25" Grid.ColumnSpan="2"/>
 
         <Button Content="Check Language" 
                 Grid.Row="2" 
                 Command="{Binding CheckLanguageCommand}" 
-                Margin="165,8,0,12" 
+                Margin="165,4,0,3" 
                 HorizontalAlignment="Left" RenderTransformOrigin="0.384,0.629" Width="160" />
 
         <!-- Inverter Type Selection -->
-        <TextBlock Text="Select Inverter:" Grid.Row="3" Width="122"  HorizontalAlignment="Left" Margin="31,7,0,11"/>
+        <TextBlock Text="Select Inverter:" Grid.Row="3" Width="122"  HorizontalAlignment="Left" Margin="64,15,0,3"/>
         <ComboBox ItemsSource="{Binding InverterTypes}" 
                   Grid.Row="3" 
                   SelectedItem="{Binding SelectedInverterType}" 
-                  Margin="165,10,445,10" Grid.ColumnSpan="2" />
+                  Margin="165,15,445,40" Grid.ColumnSpan="2" Grid.RowSpan="2" />
 
         <Button Content="Check Inverter Type" 
                 Command="{Binding CheckInverterTypeCommand}"
                 Grid.Row="4" 
-                Margin="165,10,0,10" 
+                Margin="165,13,0,5" 
                 HorizontalAlignment="Left" Width="160" />
 
         <!-- Contact Person Name Update -->
-        <TextBlock Text="New Contact Person Name:" Grid.Row="5" Width="200" Margin="10,1,135,40" Height="30" Grid.RowSpan="2"/>
+        <TextBlock Text="New Contact Person Name:" Grid.Row="5" Width="200" Margin="10,11,135,4" Height="30"/>
         <TextBox Text="{Binding ContactPerson}" 
                     Grid.Row="5" 
-                    Width="200"
-                    Height="30"
+                    Width="250"
+                    Height="32"
                     HorizontalAlignment="Left" 
                     VerticalAlignment="Center" 
-                    FontSize="20" 
+                    FontSize="18" 
                     Margin="165,0,0,0" Grid.ColumnSpan="2" />
 
         <!--Add a Button to trigger updating the contact person name-->
         <Button Content="Check Contact Person" 
                 Grid.Row="6" 
                 Command="{Binding CheckContactPersonCommand}" 
-                Margin="103,10,0,10" 
-                HorizontalAlignment="Left"/>
+                Margin="103,5,0,165" 
+                HorizontalAlignment="Left" Grid.RowSpan="4" Width="155" Height="25"/>
 
-        <Button Content="Add Contact Person to list" Grid.Row="6"  Command="{Binding AddContactPersonCommand}" Margin="326,5,319,5" Grid.ColumnSpan="2"/>
+        <Button Content="Add Contact Person to list" Grid.Row="7"  Command="{Binding AddContactPersonCommand}" Margin="326,5,319,165" Grid.ColumnSpan="2" Grid.RowSpan="3" Height="25"/>
 
-        <ListBox ItemsSource="{Binding ContactPersons}" Grid.Row="9"  Margin="9,5,276,69" Grid.ColumnSpan="2"/>
+        <ListBox ItemsSource="{Binding ContactPersons}" Grid.Row="9"  Margin="10,41,275,59" Grid.ColumnSpan="2"/>
 
         <!--UpDown Box Error is working in the UI, but before compiling error message came because of 
         nuget package manager names 'Extended WPF Toolkit' is not working-->
@@ -106,18 +108,20 @@
                     Margin="0,0,0,10"/>-->
 
         <!-- Min Voltage -->
-        <TextBlock Text="Min Voltage:" Grid.Row="9" Width="90" HorizontalAlignment="Left" Margin="10,107,0,42" RenderTransformOrigin="0.5,1.268"/>
+        <TextBlock Text="Min Voltage:" Grid.Row="9" Width="90" HorizontalAlignment="Left" Margin="58,156,0,21" RenderTransformOrigin="0.5,1.268" Height="23"/>
         <TextBox Text="{Binding MinVoltage, UpdateSourceTrigger=PropertyChanged}" 
                      Grid.Row="9"
-                     LostFocus="MinVoltageTextBox_LostFocus" Margin="136,107,0,34" HorizontalAlignment="Left" Width="160"/>
+                     LostFocus="MinVoltageTextBox_LostFocus" Margin="136,148,0,11" HorizontalAlignment="Left" Width="160" Height="33"/>
 
         <!-- Max Voltage -->
-        <TextBlock Text="Max Voltage:" Grid.Row="9" Width="90" Margin="10,141,0,-25" HorizontalAlignment="Left"/>
+        <TextBlock Text="Max Voltage:" Grid.Row="11" Width="90" Margin="58,14,0,5" HorizontalAlignment="Left" Height="23"/>
         <TextBox Text="{Binding MaxVoltage, UpdateSourceTrigger=PropertyChanged}" 
-                     Grid.Row="9"
-                     LostFocus="MaxVoltageTextBox_LostFocus" Margin="136,145,0,0" HorizontalAlignment="Left" RenderTransformOrigin="0.418,1.248" Width="160" VerticalAlignment="Top" Height="21">
+                     Grid.Row="11"
+                     LostFocus="MaxVoltageTextBox_LostFocus" Margin="136,9,0,0" HorizontalAlignment="Left" RenderTransformOrigin="0.418,1.248" Width="160" VerticalAlignment="Top" Height="33"/>
 
-        </TextBox>
+        <!-- New Load and Save Buttons -->
+        <Button Command="{Binding LoadConfigurationCommand}" Content="Load Configuration" Margin="39,10,40,45" Grid.RowSpan="2"/>
+        <Button Command="{Binding SaveConfigurationCommand}" Content="Save Configuration" Margin="327,10,210,45" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>
