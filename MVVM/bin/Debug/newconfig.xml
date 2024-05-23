@@ -2,7 +2,7 @@
 <SystemConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <GeneralConfig>
     <SystemName>MainframeV2</SystemName>
-    <ContactPerson>Juha Hiljanen</ContactPerson>
+    <ContactPerson>Simone Loetzsch</ContactPerson>
     <Hotline>+1234567890</Hotline>
     <LoginCode>ABCD1234</LoginCode>
     <Language>German</Language>
